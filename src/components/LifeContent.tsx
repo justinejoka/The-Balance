@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Post } from "../../types";
-import Container from "./Container";
+import Container from "@/components/Container";
 import Image from "next/image";
 import { urlFor } from "@/lib/createClient";
 
@@ -8,10 +8,15 @@ interface Props {
   posts: Post[];
 }
 
-const Life = ({ posts }: Props) => {
+const LifeContent = ({ posts }: Props) => {
+  // Filter the posts array to only include posts with the "life" category
+  const lifePosts = posts.filter((post) =>
+    post.categories?.some((cat) => cat.title.toLowerCase() === "life")
+  );
+
   return (
     <Container className="bg-gray-100 py-20 px-10 flex flex-col gap-10">
-      {posts.map((post) => (
+      {lifePosts.map((post) => (
         <Link
           href={{
             pathname: `/post/${post?.slug?.current}`,
@@ -78,4 +83,4 @@ const Life = ({ posts }: Props) => {
   );
 };
 
-export default Life;
+export default LifeContent;
