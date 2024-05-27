@@ -18,7 +18,7 @@ const Terms = () => {
         <div className="">
           
               
-        <h1>Terms and Conditions</h1>
+        <h1 className="text-3xl font-bold mb-6">Terms and Conditions</h1>
     <p>Welcome to our website! Before you dive into our content, please take a moment to review the following terms and conditions. By accessing or using this website, you agree to be bound by these terms. If you do not agree with any part of these terms, please refrain from using our website.</p>
     
     <h2>1. Intended Use:</h2>
