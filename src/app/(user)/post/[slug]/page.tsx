@@ -5,7 +5,6 @@ import Container from "@/components/Container";
 import Image from "next/image";
 import {
   FaFacebookF,
-  FaGithub,
   FaInstagram,
   FaLinkedin,
   FaYoutube,
@@ -69,35 +68,29 @@ const SlugPage = async ({ params: { slug } }: Props) => {
           </p>
           <div className="flex items-center gap-3">
             <Link
-              href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
+              href={"#"}
               target="blank"
               className="w-10 h-10 bg-red-600 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >
               <FaYoutube />
             </Link>
             <Link
-              href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
+              href={"#"}
               target="blank"
               className="w-10 h-10 bg-gray-500 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >
-              <FaGithub />
-            </Link>
-            <Link
-              href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
-              target="blank"
-              className="w-10 h-10 bg-[#3e5b98] text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
-            >
+             
               <FaFacebookF />
             </Link>
             <Link
-              href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
+              href={"#"}
               target="blank"
               className="w-10 h-10 bg-[#bc1888] text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >
               <FaInstagram />
             </Link>
             <Link
-              href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
+              href={"#"}
               target="blank"
               className="w-10 h-10 bg-blue-500 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >
