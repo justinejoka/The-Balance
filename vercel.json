@@ -1,5 +1,24 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
-    ]
-  }
+  "rewrites": [
+    {
+      "source": "/studio/:path*",
+      "destination": "/studio/index.html"
+    },
+    {
+      "source": "/work",
+      "destination": "/work"
+    },
+    {
+      "source": "/life",
+      "destination": "/life"
+    },
+    {
+      "source": "/business",
+      "destination": "/business"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
