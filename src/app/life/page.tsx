@@ -3,7 +3,7 @@
 
 import { useEffect, useState } from 'react';
 import { fetchPosts } from '@/lib/fetchPosts';
-import LifeContent from "@/components/LifeContent";
+import LifeContent from "./LifeContent";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Container from "@/components/Container";
