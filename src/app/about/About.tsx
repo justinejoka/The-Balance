@@ -13,10 +13,12 @@ const About = () => {
     
     <Container className="bg-gray-100 py-20 px-10 flex flex-col gap-10">
       
+      
       <div  >
-        <h1 className="text-3xl font-bold mb-6">About The Balance.</h1>
-        <div className="">
+        
+        <div className="max-w-3xl mx-auto px-4 py-8 prose lg:prose-xl">
           
+        <h1 className="text-3xl font-bold mb-6">About The Balance.</h1>
               
               <p>
 Hello, I am Jeremy Zero. I am a young ambitious individual and humble student of life. Before the balance, I had an opportunity to start few businesses where I made mistakes therefore gaining  a lot of lessons.

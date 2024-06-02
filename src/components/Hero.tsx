@@ -17,13 +17,13 @@ const Hero = () => {
             Discover the Perfect Balance
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl text-center mb-8">
-            Achieve Work-Life Harmony with Our Expert Insights
+            Achieve Work-Life Harmony with Our Insights
           </p>
           <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold transition duration-300">
           <a
   href="#blog-content"
 >
-  Explore Articles
+  Explore Ideas
 </a>
 
           </button>

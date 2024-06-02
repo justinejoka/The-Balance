@@ -18,7 +18,6 @@ export default async function Home() {
     <main>
       <Hero />
       <BlogContent posts={posts} />
-      <Products />
     </main>
   );
 }
