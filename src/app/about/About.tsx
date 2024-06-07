@@ -3,6 +3,8 @@ import Container from "../../components/Container";
 import Navbar from "../../components/Navbar";
 import "../style/globals.css";
 import Footer from "@/components/Footer";
+import Image from "next/image";
+import BalanceeImg from "../../images/Balancee.jpeg";
 
 
 
@@ -11,13 +13,20 @@ const About = () => {
     <div>
     <Navbar />
     
+    
     <Container className="bg-gray-100 py-20 px-10 flex flex-col gap-10">
       
       
-      <div  >
+      <div >
+      <Image
+        src={BalanceeImg}
+        alt="Balancee"
+        
+        objectFit="cover"
+      />
         
         <div className="max-w-3xl mx-auto px-4 py-8 prose lg:prose-xl">
-          
+      
         <h1 className="text-3xl font-bold mb-6">About The Balance.</h1>
               
               <p>

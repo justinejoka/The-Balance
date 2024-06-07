@@ -18,7 +18,9 @@ const Footer = () => {
             <Logo title="The Balance" className="mb-4 md:mb-4" />
           </div>
           <div className="mb-4 md:mb-4 md:text-left text-center">
-            <p className="text-white mb-2">Contact Us: +254 707 898 700</p>
+            <p className="text-white mb-2">Contact Us: +254 707 898 700 </p>
+            <p>thebalance254@gmail.com</p>
+            
           </div>
           <div className="mb-4 md:text-left text-center">
             <Link href="/about">
