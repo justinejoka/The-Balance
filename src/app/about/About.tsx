@@ -4,7 +4,8 @@ import Navbar from "../../components/Navbar";
 import "../style/globals.css";
 import Footer from "@/components/Footer";
 import Image from "next/image";
-import BalanceeImg from "../../images/Balancee.jpeg";
+import BalanceeImg from "../../images/cover.jpg";
+import DrawImg from "../../images/Logodef.jpeg";
 
 
 
@@ -14,7 +15,7 @@ const About = () => {
     <Navbar />
     
     
-    <Container className="bg-gray-100 py-20 px-10 flex flex-col gap-10">
+    <Container className="bg-gray-100  px-10 flex flex-col gap-10">
       
       
       <div >
@@ -22,7 +23,7 @@ const About = () => {
         src={BalanceeImg}
         alt="Balancee"
         
-        objectFit="cover"
+        objectFit="contain"
       />
         
         <div className="max-w-3xl mx-auto px-4 py-8 prose lg:prose-xl">
@@ -30,13 +31,35 @@ const About = () => {
         <h1 className="text-3xl font-bold mb-6">About The Balance.</h1>
               
               <p>
-Hello, I am Jeremy Zero. I am a young ambitious individual and humble student of life. Before the balance, I had an opportunity to start few businesses where I made mistakes therefore gaining  a lot of lessons.
-Now the year is 2024. Everything feels great. The Balance project is here. Almost 10 years in creation. does it matter? yes. 
-Here, I will be writing about work(employment), general life, and business. These stories will come from my personal experiences as well as other people experiences. 
-Genuinely,  all of us have a deep desire for fulfillment in success and money. Life is fast, we are lost in the chase for material success barely finding the balance to live life. Time passes, and passes again. We in the same broke place, and we cannot even notice that we are stagnant. For this reason, I decided to create this website so we can help each other find solutions to stupid non existent problems we face.
-Every week I will be publishing stories on life, work, and business. Sign up and check in for updates. Enjoy. 
+              This is a startup company that is focused on creating content that relate to work(employment), life(social and economic), and business. The balance vision is creating more media products.<br></br>
 
-Thank you.
+<b>Purpose</b> - To build content relating to technology and modernity.<br></br>
+
+<b>Mission</b> - To build a community that inspires each other to become better by use of technology.<br></br>
+
+<b>Vision:</b> To become a trusted platform/entity that provides technology awareness across Africa.<br></br>
+
+Our logo symbolizes the three tenets of The Balance community (Work, Life, and Business). The circle is our mind, while the black dot is our mindset. The triangle and circle stands on one corner because both are seeking balance.
+
+
+<Image
+        src={DrawImg}
+        alt="Drawing"
+        
+        objectFit="cover"
+      />
+
+
+Technology affects our Work, everyday Life as well as the way we  engage in Business. 
+
+The question is: Where is the balance? Thus, the purpose of this enterprise lies in finding answers to the question. 
+
+This entity is a subsidiary to the main technology company; LAIF TECHNET. 
+
+The balance is the first product under LAIF TECHNET umbrella. 
+
+LAIF TECHNET purpose is to develop more tech products geared towards improving lives  in Kenya and Africa. LAIF represents  Life in Africa. 
+Subscribe to receive updates of content and designs.
               </p>
               
             </div>
