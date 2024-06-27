@@ -4,6 +4,7 @@ import Products from "@/components/Products";
 import { client } from "@/lib/createClient";
 import { groq } from "next-sanity";
 
+
 export const revalidate = 30;
 const query = groq`*[_type == 'post']{
   ...,
@@ -15,9 +16,11 @@ export default async function Home() {
   const posts = await client.fetch(query);
 
   return (
+    
     <main>
       <Hero />
       <BlogContent posts={posts} />
     </main>
+    
   );
 }

@@ -4,14 +4,17 @@ import {
   BsFacebook,
   BsYoutube,
   BsInstagram,
-  BsGithub,
   BsTwitterX,
   BsWhatsapp,
 } from "react-icons/bs";
 
+
 const Footer = () => {
+  
   return (
     <div className="p-10 bg-black text-gray-100 relative">
+     
+
       <div className="flex flex-col md:flex-row justify-between mb-8">
         <div className="flex flex-col items-center md:items-start md:mr-auto">
           <div className="mb-4 md:mb-4">
