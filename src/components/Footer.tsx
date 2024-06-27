@@ -21,8 +21,14 @@ const Footer = () => {
             <Logo title="The Balance" className="mb-4 md:mb-4" />
           </div>
           <div className="mb-4 md:mb-4 md:text-left text-center">
+            <Link href={"https://wa.me/254707898700"}>
             <p className="text-white mb-2">Contact Us: +254 707 898 700 </p>
+            </Link>
+            
+            <Link href={"thebalance254@gmail.com"}>
             <p>thebalance254@gmail.com</p>
+            </Link>
+            
             
           </div>
           <div className="mb-4 md:text-left text-center">
@@ -41,16 +47,16 @@ const Footer = () => {
             <Link href={"#"} target="blank">
               <BsYoutube className="text-2xl hover:text-red-500 duration-200" />
             </Link>
-            <Link href={"#"} target="blank">
+            <Link href={"https://wa.me/254707898700"} target="blank">
               <BsWhatsapp className="text-2xl hover:text-green-500 duration-200" />
             </Link>
-            <Link href={"#"} target="blank">
+            <Link href={"https://x.com/thebalance254"} target="blank">
               <BsTwitterX className="text-2xl hover:text-blue-400 duration-200 cursor-pointer" />
             </Link>
             <Link href={"#"} target="blank">
               <BsFacebook className="text-2xl hover:text-blue-800 duration-200 cursor-pointer" />
             </Link>
-            <Link href={"#"} target="blank">
+            <Link href={"https://www.instagram.com/thebalance254/"} target="blank">
               <BsInstagram className="text-2xl hover:text-purple-500 duration-200 cursor-pointer" />
             </Link>
           </div>
