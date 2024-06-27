@@ -25,7 +25,7 @@ const Footer = () => {
             <p className="text-white mb-2">Contact Us: +254 707 898 700 </p>
             </Link>
             
-            <Link href={"thebalance254@gmail.com"}>
+            <Link href={"mailto:thebalance254@gmail.com"}>
             <p>thebalance254@gmail.com</p>
             </Link>
             
