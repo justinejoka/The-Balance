@@ -21,7 +21,7 @@
     "react-slick": "^0.30.2",
     "sanity": "^3.0.0",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.2.0",
+    "styled-components": "^6.1.11",
     "swr": "^2.2.5",
     "tw-elements": "^2.0.0"
   },
