@@ -34,9 +34,9 @@ const About = () => {
               This is a startup company that is focused on creating content that relate to work(employment), <br></br>
               life(social and economic), and business. The balance vision is creating more media products.<br></br><br></br>
 
-<b>Purpose</b> - To create content that explains how technology affects our daily life at work and in our businesses.<br></br>
+<b>Purpose</b> To create content that explains how technology affects our daily life at work and in our businesses.<br></br>
 
-<b>Mission</b> - To build a community that inspires each other to use technology at either their work or businesses.<br></br>
+<b>Mission</b> To build a community that inspires each other to use technology at either their work or businesses.<br></br>
 
 <b>Vision:</b> To become a trusted platform/entity that provides technology awareness across Africa.<br></br><br></br>
 
