@@ -9,7 +9,7 @@ const AboutPage = () => {
   return (
     <main>
        <Navbar />
-  <ThemeToggle/> 
+  
   <About />
   <Footer />
   </main>

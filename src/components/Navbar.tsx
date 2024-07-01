@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import Link from "next/link";
 import { FiMenu } from "react-icons/fi";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Navbar = () => {
   const navigation = [
@@ -50,7 +51,9 @@ const Navbar = () => {
               )}
             </div>
           ))}
+          <ThemeToggle/>
         </div>
+        
         <div className="md:hidden">
           <FiMenu className="text-2xl" />
         </div>

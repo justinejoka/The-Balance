@@ -43,7 +43,7 @@ const SlugPage = async ({ params: { slug } }: Props) => {
 
   return (
     <div>
-      <ThemeToggle/>
+      
     
     <Container className=" bg-gray-100  dark:bg-gray-900 py-20 px-10 flex flex-col gap-10">
       

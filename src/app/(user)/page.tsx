@@ -22,7 +22,7 @@ export default async function Home() {
     
     <main>
       
-      <ThemeToggle/>
+      
         <Hero />
       
         <BlogContent posts={posts} />

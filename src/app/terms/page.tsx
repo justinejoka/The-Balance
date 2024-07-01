@@ -8,7 +8,7 @@ const TermsPage = () => {
     <>
     <Navbar />
     
-    <ThemeToggle/>
+    
   <Terms />
   <Footer />
   </>

@@ -40,7 +40,7 @@ const BusinessPage = () => {
     <>
 
       <Navbar />
-      <ThemeToggle/>
+      
       <Container className="bg-gray-100 dark:bg-gray-900 py-20 px-10 flex flex-col gap-10">
         <BusinessContent posts={posts} />
       </Container>

@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const ProductsPage = () => {
   return ( <main>
        <Navbar />
-    <ThemeToggle/> 
+    
     <Products />
     <Footer />
     </main>
