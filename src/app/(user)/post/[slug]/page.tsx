@@ -12,6 +12,7 @@ import {
 import Link from "next/link";
 import { PortableText } from "@portabletext/react";
 import { RichText } from "@/components/RichText";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 interface Props {
   params: {
@@ -41,7 +42,11 @@ const SlugPage = async ({ params: { slug } }: Props) => {
   const post: Post = await client.fetch(query, { slug });
 
   return (
-    <Container className=" bg-gray-100 py-20 px-10 flex flex-col gap-10">
+    <div>
+      <ThemeToggle/>
+    
+    <Container className=" bg-gray-100  dark:bg-gray-900 py-20 px-10 flex flex-col gap-10">
+      
       <div className="flex items-center mb-10">
         <div className="w-full md:w-2/3">
           <Image
@@ -103,6 +108,7 @@ const SlugPage = async ({ params: { slug } }: Props) => {
   <PortableText value={post?.body} components={RichText} />
 </div>
     </Container>
+    </div>
   );
 };
 
