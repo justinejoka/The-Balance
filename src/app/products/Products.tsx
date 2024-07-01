@@ -2,9 +2,8 @@ import React from "react";
 import Container from "../../components/Container";
 import Image from "next/image";
 import soonImage from "@/images/soon.png";
-import Navbar from "../../components/Navbar";
 import "../style/globals.css";
-import Footer from "@/components/Footer";
+
 
 const productData = [
   {
@@ -52,7 +51,7 @@ const productData = [
 const Products = () => {
   return (
     <div>
-    <Navbar />
+ 
     
     <Container className="bg-white-100 pb-20 ">
       
@@ -63,7 +62,7 @@ const Products = () => {
           {productData.map((product, index) => (
             <div
               key={index}
-              className="bg-gray-200 p-4 shadow-md rounded-md transition duration-300 hover:bg-white hover:shadow-lg"
+              className="bg-gray-200 dark:bg-gray-900 p-4 shadow-md rounded-md transition duration-300 hover:bg-white hover:shadow-lg"
             >
               <Image
                 src={product.image}
@@ -82,7 +81,7 @@ const Products = () => {
         </div>
       </div>
     </Container>
-    <Footer />
+   
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
 import Container from "../../components/Container";
-import Navbar from "../../components/Navbar";
+
 import "../style/globals.css";
-import Footer from "@/components/Footer";
+
 import Image from "next/image";
 import BalanceeImg from "../../images/cover.jpg";
 import DrawImg from "../../images/Drawbalance.jpg";
@@ -12,10 +12,10 @@ import DrawImg from "../../images/Drawbalance.jpg";
 const About = () => {
   return (
     <div>
-    <Navbar />
     
     
-    <Container className="bg-gray-100  px-10 flex flex-col gap-10">
+    
+    <Container className="bg-gray-100 dark:bg-gray-900 px-10 flex flex-col gap-10">
       
       
       <div >
@@ -71,7 +71,7 @@ Subscribe to receive updates of content and designs.
             </div>
         </div>
     </Container>
-    <Footer />
+    
     </div>
   );
 };

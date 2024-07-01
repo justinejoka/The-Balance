@@ -21,7 +21,7 @@ const BusinessContent = ({ posts }: Props) => {
           }}
           key={post?._id}
         >
-          <div id="blog-content" className="flex flex-col md:flex-row gap-10 bg-white rounded-md rounded-tr-md rounded-br-md hover:shadow-md duration-200">
+          <div id="blog-content" className="flex flex-col md:flex-row gap-10 bg-white rounded-md rounded-tr-md rounded-br-md hover:shadow-md duration-200 dark:bg-gray-900">
             <div className="w-full md:w-3/5 group overflow-hidden rounded-tl-md rounded-bl-md relative">
               <Image
                 src={urlFor(post?.mainImage).url()}

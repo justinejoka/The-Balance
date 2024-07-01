@@ -1,17 +1,16 @@
 import React from "react";
 import Container from "../../components/Container";
-import Navbar from "../../components/Navbar";
+
 import "../style/globals.css";
-import Footer from "@/components/Footer";
+
 
 
 
 const Terms = () => {
   return (
     <div>
-    <Navbar />
     
-    <Container className="bg-gray-100 py-20 px-10 flex flex-col gap-10">
+    <Container className="bg-gray-100 dark:bg-gray-900 py-20 px-10 flex flex-col gap-10">
       
       <div  >
        
@@ -110,7 +109,7 @@ const Terms = () => {
             </div>
         </div>
     </Container>
-    <Footer />
+    
     </div>
   );
 };

@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import Container from "@/components/Container";
 import { Post } from '../../../types';
 import "../style/globals.css";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const LifePage = () => {
   const [posts, setPosts] = useState<Post[]>([]);
@@ -38,7 +39,8 @@ const LifePage = () => {
   return (
     <>
       <Navbar />
-      <Container className="bg-gray-100 py-20 px-10 flex flex-col gap-10">
+      <ThemeToggle/>
+      <Container className="bg-gray-100 dark:bg-gray-900 py-20 px-10 flex flex-col gap-10">
         <LifeContent posts={posts} />
       </Container>
       <Footer />

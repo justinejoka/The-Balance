@@ -1,3 +1,7 @@
+import "../style/globals.css";
+import { ThemeProvider } from "@/components/ThemeContext";
+import ThemeWrapper from "@/components/ThemeWrapper";
+import ThemeScript from "@/components/ThemeScript";
 
 export const metadata = {
   title: 'Next.js',
@@ -11,7 +15,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+        <head>
+        <ThemeScript />
+      </head>
+      
+      <body>
+    
+      <ThemeProvider>
+      <ThemeWrapper>
+        {children}
+        </ThemeWrapper>
+      </ThemeProvider>
+        </body>
     </html>
   )
 }

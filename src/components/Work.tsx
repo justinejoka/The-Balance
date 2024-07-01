@@ -10,7 +10,7 @@ interface Props {
 
 const Work = ({ posts }: Props) => {
   return (
-    <Container className="bg-gray-100 py-20 px-10 flex flex-col gap-10">
+    <Container className="bg-gray-100 dark:bg-gray-900 py-20 px-10 flex flex-col gap-10">
       {posts.map((post) => (
         <Link
           href={{
