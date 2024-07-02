@@ -1,10 +1,14 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Logo from "./Logo";
 import Link from "next/link";
-import { FiMenu } from "react-icons/fi";
+import { FiMenu, FiX } from "react-icons/fi";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const navigation = [
     { title: "Home", href: "/" },
     { title: "Blogs", subItems: [
@@ -17,6 +21,10 @@ const Navbar = () => {
     { title: "Contact Us", href: "#contacts" },
     { title: "About Us", href: "/about" },
   ];
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   return (
     <div className="w-full bg-white/70 h-20 shadow-md sticky top-0 backdrop-blur-2xl transition-colors z-50 p-10">
@@ -51,13 +59,49 @@ const Navbar = () => {
               )}
             </div>
           ))}
-          <ThemeToggle/>
+          <ThemeToggle />
         </div>
-        
+
         <div className="md:hidden">
-          <FiMenu className="text-2xl" />
+          <button onClick={toggleMenu}>
+            {isMenuOpen ? <FiX className="text-2xl" /> : <FiMenu className="text-2xl" />}
+          </button>
         </div>
       </div>
+
+      {isMenuOpen && (
+        <div className="md:hidden absolute top-20 left-0 w-full bg-white shadow-md dark:bg-gray-700 z-40">
+          {navigation.map((item) => (
+            <div key={item.title} className="relative group">
+              {item.href ? (
+                <Link href={item.href} passHref>
+                  <span className="block px-4 py-2 text-sm uppercase font-semibold relative cursor-pointer">
+                    {item.title}
+                  </span>
+                </Link>
+              ) : (
+                <span className="block px-4 py-2 text-sm uppercase font-semibold relative cursor-pointer">
+                  {item.title}
+                </span>
+              )}
+              {item.subItems && (
+                <div className="pl-4">
+                  {item.subItems.map((subItem) => (
+                    <Link key={subItem.title} href={subItem.href} passHref>
+                      <span className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-900 cursor-pointer">
+                        {subItem.title}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+          <div className="px-4 py-2">
+            <ThemeToggle />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
