@@ -12,9 +12,9 @@ const Navbar = () => {
   const navigation = [
     { title: "Home", href: "/" },
     { title: "Blogs", subItems: [
-        { title: "WORK", href: "/work" },
-        { title: "LIFE", href: "/life" },
-        { title: "BUSINESS", href: "/business" }
+        
+        { title: "LIFESTYLE", href: "/life" },
+        { title: "TECHNOLOGY", href: "/business" }
       ]
     },
     { title: "Products", href: "/products" },
