@@ -32,7 +32,7 @@ const About = () => {
               
               <p>
               This is a startup company that is focused on creating content that relate to work(employment), <br></br>
-              life(social and economic), and business. The balance vision is creating more media products.<br></br><br></br>
+              life(social and economic), and business. The balance vision is creating more Technology content.<br></br><br></br>
 
 <b>Purpose</b> To create content that explains how technology affects our daily life at work and in our businesses.<br></br>
 
