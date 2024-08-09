@@ -62,10 +62,11 @@ const Footer = () => {
           </div>
           <div className="mt-4 md:mt-8 md:text-left text-center">
             <p className="text-lg font-semibold text-white mb-2 md:text-center">Join Our Newsletter</p>
-            <form className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
-              <input type="email" placeholder="Enter your email" className="p-2 rounded-md text-black" />
-              <button type="submit" className="bg-blue-600 text-white p-2 rounded-md hover:bg-blue-800">Subscribe</button>
-            </form>
+            <form class="flex flex-col md:flex-row items-center gap-1 md:gap-0 ml-6">
+  <input type="email" placeholder="Enter your email" class="p-1 text-black rounded-l-md border-r-0 flex-1 min-w-[0px]" />
+  <button type="submit" class="bg-blue-600 text-white p-1 rounded-r-md border-l-0 hover:bg-blue-800 min-w-[5px]">Subscribe</button>
+</form>
+
           </div>
         </div>
       </div>
