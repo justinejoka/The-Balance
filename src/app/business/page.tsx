@@ -20,7 +20,7 @@ const BusinessPage = () => {
       try {
         const allPosts = await fetchPosts();
         const businessPosts = allPosts.filter(post =>
-          post.categories?.some(cat => cat.title.toLowerCase() === 'business')
+          post.categories?.some(cat => cat.title.toLowerCase() === 'technology')
         );
         setPosts(businessPosts);
       } catch (error) {
