@@ -11,7 +11,7 @@ interface Props {
 const LifeContent = ({ posts }: Props) => {
   // Filter the posts array to only include posts with the "life" category
   const lifePosts = posts.filter((post) =>
-    post.categories?.some((cat) => cat.title.toLowerCase() === "life")
+    post.categories?.some((cat) => cat.title.toLowerCase() === "lifestyle")
   );
 
   return (
