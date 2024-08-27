@@ -20,7 +20,7 @@ const LifePage = () => {
       try {
         const allPosts = await fetchPosts();
         const lifePosts = allPosts.filter(post =>
-          post.categories?.some(cat => cat.title.toLowerCase() === 'life')
+          post.categories?.some(cat => cat.title.toLowerCase() === 'lifestyle')
         );
         setPosts(lifePosts);
       } catch (error) {
