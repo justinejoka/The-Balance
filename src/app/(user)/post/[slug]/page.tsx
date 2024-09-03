@@ -4,9 +4,9 @@ import { client, urlFor } from "@/lib/createClient";
 import Container from "@/components/Container";
 import Image from "next/image";
 import {
-  FaFacebookF,
+  FaWhatsapp,
   FaInstagram,
-  FaLinkedin,
+  FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
 import Link from "next/link";
@@ -80,26 +80,26 @@ const SlugPage = async ({ params: { slug } }: Props) => {
               <FaYoutube />
             </Link>
             <Link
-              href={"#"}
+              href={"https://wa.me/254707898700"}
               target="blank"
               className="w-10 h-10 bg-gray-500 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >
              
-              <FaFacebookF />
+              <FaWhatsapp />
             </Link>
             <Link
-              href={"#"}
+              href={"https://www.instagram.com/thebalance254/"}
               target="blank"
               className="w-10 h-10 bg-[#bc1888] text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >
               <FaInstagram />
             </Link>
             <Link
-              href={"#"}
+              href={"https://x.com/thebalance254"}
               target="blank"
               className="w-10 h-10 bg-blue-500 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >
-              <FaLinkedin />
+              <FaTwitter />
             </Link>
           </div>
         </div>
