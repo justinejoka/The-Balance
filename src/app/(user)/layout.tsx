@@ -7,6 +7,7 @@ import React from 'react';
 import { ThemeProvider } from "@/components/ThemeContext";
 import ThemeWrapper from "@/components/ThemeWrapper";
 import ThemeScript from "@/components/ThemeScript";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider>
           <ThemeWrapper>
+          <Analytics />
             <Navbar />
             {children}
             <Footer />
