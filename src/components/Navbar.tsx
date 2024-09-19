@@ -11,19 +11,21 @@ const Navbar = () => {
 
   const navigation = [
     { title: "Home", href: "/" },
-    { title: "Blogs", subItems: [
-        
+    {
+      title: "Blogs",
+      subItems: [
         { title: "LIFESTYLE", href: "/life" },
-        { title: "TECHNOLOGY", href: "/business" }
-      ]
+        { title: "TECHNOLOGY", href: "/business" },
+      ],
     },
-    { title: "Services", subItems: [
-        
-      { title: "DIGITAL MARKETING", href: "/" },
-      { title: "GRAPHIC DESIGN", href: "/" },
-      { title: "WEB DESIGN", href: "/" }
-    ]
-  },
+    {
+      title: "Services",
+      subItems: [
+        { title: "WEB DEVELOPMENT", href: "/" },
+        { title: "WEB MANAGEMENT", href: "/" },
+        { title: "3D VISUALIZATION", href: "/" },
+      ],
+    },
     { title: "Products", href: "/products" },
     { title: "Contact Us", href: "#contacts" },
     { title: "About Us", href: "/about" },
@@ -54,10 +56,10 @@ const Navbar = () => {
                 </span>
               )}
               {item.subItems && (
-                <div className="absolute z-10 bg-white shadow-md mt-1 py-1 w-32 hidden group-hover:block">
+                <div className="absolute z-10 bg-white shadow-lg mt-1 py-2 w-48 rounded-md hidden group-hover:block">
                   {item.subItems.map((subItem) => (
                     <Link key={subItem.title} href={subItem.href} passHref>
-                      <span className="block px-4 py-2 hover:bg-gray-200 cursor-pointer">
+                      <span className="block px-4 py-2 hover:bg-gray-300 cursor-pointer text-gray-700">
                         {subItem.title}
                       </span>
                     </Link>
@@ -71,7 +73,11 @@ const Navbar = () => {
 
         <div className="md:hidden">
           <button onClick={toggleMenu}>
-            {isMenuOpen ? <FiX className="text-2xl" /> : <FiMenu className="text-2xl" />}
+            {isMenuOpen ? (
+              <FiX className="text-2xl" />
+            ) : (
+              <FiMenu className="text-2xl" />
+            )}
           </button>
         </div>
       </div>
