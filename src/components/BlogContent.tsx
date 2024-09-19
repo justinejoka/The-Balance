@@ -9,7 +9,7 @@ interface Props {
 }
 
 const BlogContent = ({ posts }: Props) => {
-  const latestPosts = posts.slice(0, 5);
+  const latestPosts = posts.slice(0, 10);
 
   return (
     <Container className="bg-gray-100 dark:bg-gray-900 py-20 px-10 flex flex-col gap-10">
