@@ -59,7 +59,7 @@ const Navbar = () => {
                 <div className="absolute z-10 bg-white shadow-lg mt-1 py-2 w-48 rounded-md hidden group-hover:block">
                   {item.subItems.map((subItem) => (
                     <Link key={subItem.title} href={subItem.href} passHref>
-                      <span className="block px-4 py-2 hover:bg-gray-300 cursor-pointer text-gray-700">
+                      <span className="block px-4 py-2 hover:bg-gray-300 cursor-pointer text-gray-700 text-sm">
                         {subItem.title}
                       </span>
                     </Link>
