@@ -17,6 +17,13 @@ const Navbar = () => {
         { title: "TECHNOLOGY", href: "/business" }
       ]
     },
+    { title: "Services", subItems: [
+        
+      { title: "DIGITAL MARKETING", href: "/" },
+      { title: "GRAPHIC DESIGN", href: "/" },
+      { title: "WEB DESIGN", href: "/" }
+    ]
+  },
     { title: "Products", href: "/products" },
     { title: "Contact Us", href: "#contacts" },
     { title: "About Us", href: "/about" },
