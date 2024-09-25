@@ -16,7 +16,7 @@ const visualizationServices = [
     description: "Bring your product designs to life with high-quality, realistic 3D models. Perfect for marketing, prototyping, and presentations.",
     price: "Kes. 50,000 - 75,000",
     marketing: "Turn your concepts into reality with visually stunning 3D models that capture attention and drive sales.",
-    link: "https://wa.me/yourbusinessnumber?text=I%20would%20like%20to%20inquire%20about%20Product%20Visualization"
+    link: "https://wa.me/254707898700?text=I%20would%20like%20to%20inquire%20about%20Product%20Visualization"
   },
   
   {
@@ -25,7 +25,7 @@ const visualizationServices = [
     description: "Dynamic animations that bring your stories to life, whether for advertisements, educational content, or visual effects.",
     price: "Kes. 60,000 - 120,000",
     marketing: "Capture attention with compelling animations that tell your story in an engaging and memorable way.",
-    link: "https://wa.me/yourbusinessnumber?text=I%20would%20like%20to%20inquire%20about%203D%20Animation"
+    link: "https://wa.me/254707898700?text=I%20would%20like%20to%20inquire%20about%203D%20Animation"
   },
   {
     title: "Interactive 3D Web Applications",
@@ -33,7 +33,7 @@ const visualizationServices = [
     description: "Develop interactive 3D applications that users can explore directly from their browser. Ideal for e-commerce, education, and more.",
     price: "Kes. 80,000 - 150,000",
     marketing: "Make your website stand out with interactive 3D elements that engage visitors and elevate the user experience.",
-    link: "https://wa.me/yourbusinessnumber?text=I%20would%20like%20to%20inquire%20about%20Interactive%203D%20Web%20Applications"
+    link: "https://wa.me/254707898700?text=I%20would%20like%20to%20inquire%20about%20Interactive%203D%20Web%20Applications"
   }
 ];
 
