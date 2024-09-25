@@ -21,9 +21,8 @@ const Navbar = () => {
     {
       title: "Services",
       subItems: [
-        { title: "WEB DEVELOPMENT", href: "/" },
-        { title: "WEB MANAGEMENT", href: "/" },
-        { title: "3D VISUALIZATION", href: "/" },
+        { title: "WEB DEVELOPMENT & MANAGEMENT", href: "/work" },
+        { title: "3D VISUALIZATION", href: "/viz" },
       ],
     },
     { title: "Products", href: "/products" },
