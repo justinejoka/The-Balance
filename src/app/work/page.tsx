@@ -56,7 +56,7 @@ const WebDevPricing = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-4">{service.marketing}</p>
             <p className="text-gray-600 dark:text-gray-300 mb-6">Price Range: <span className="text-lg font-semibold text-gray-900 dark:text-white">{service.priceRange}</span></p>
             <a 
-              href={`https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20your%20${encodeURIComponent(service.type)}%20service.`} 
+              href={`https://wa.me/+254707898700?text=Hello%2C%20I%27m%20interested%20in%20your%20${encodeURIComponent(service.type)}%20service.`} 
               className={buttonStyles}
               target="_blank" 
               rel="noopener noreferrer"
@@ -95,7 +95,7 @@ const WebMgtPricing = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-4">{service.marketing}</p>
             <p className="text-gray-600 dark:text-gray-300 mb-6">Price Range: <span className="text-lg font-semibold text-gray-900 dark:text-white">{service.priceRange}</span></p>
             <a 
-              href={`https://wa.me/254707898700?text=Hello%2C%20I%27m%20interested%20in%20your%20${encodeURIComponent(service.service)}%20service.`} 
+              href={`https://wa.me/+254707898700?text=Hello%2C%20I%27m%20interested%20in%20your%20${encodeURIComponent(service.service)}%20service.`} 
               className={buttonStyles}
               target="_blank" 
               rel="noopener noreferrer"
